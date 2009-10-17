@@ -8651,14 +8651,46 @@
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedDiagrams[3]" type="UMLClassDiagram" guid="rALwHkOkmUGYafMVYUAUfAAA">
-<XPD:ATTR name="Name" type="string">UC-</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[3]" type="UMLClassDiagram" guid="Q42NHU0ch0eeEcTfQv5z9QAA">
+<XPD:ATTR name="Name" type="string">UC-PesquisaEvento</XPD:ATTR>
 <XPD:REF name="DiagramOwner">rd/GUv/Ug0Km3I47jGqn9AAA</XPD:REF>
-<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="Yea1qCQv9EuOubpH7BXBjwAA">
-<XPD:REF name="Diagram">rALwHkOkmUGYafMVYUAUfAAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="cFLpql7w2E6q/Yjno9wpTwAA">
+<XPD:REF name="Diagram">Q42NHU0ch0eeEcTfQv5z9QAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="3mF8IEh210G5pQQ79BnwDwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">164</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">140</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">123</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
+<XPD:REF name="Model">8ZaR5HMZRUCcEP3vJsPsOAAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Hh9wq4vKp0++TbT9vZw5yAAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="3T1i5dFVn0axRAyerbdtqwAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">TelaPesquisaEvento</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="h5G/LtSBwE+KSElH+woWfQAA">
+<XPD:ATTR name="Text" type="string">&lt;&lt;boundary&gt;&gt;</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="oCAlgtxyf02SROoRyCPKZAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">52</XPD:ATTR>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="AuWh/2uG2kSxzLSwgP7eEAAA">
+<XPD:REF name="Model">8ZaR5HMZRUCcEP3vJsPsOAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="9v/3CX3HZUWloHQ98X8iEgAA">
+<XPD:REF name="Model">8ZaR5HMZRUCcEP3vJsPsOAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="YGtHa9ckBEKW7JYO0HlEaAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">8ZaR5HMZRUCcEP3vJsPsOAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">53</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="aA6SFwII/0uGqumTrG1vqgAA">
 <XPD:ATTR name="Name" type="string">TelaCadastroUsuario</XPD:ATTR>
 <XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
@@ -10306,6 +10338,17 @@
 <XPD:REF name="Views[2]">bUUlupgMEkOFYLo77DIM1QAA</XPD:REF>
 <XPD:REF name="Views[3]">BlpCZnHywkKmfDM8YywjlAAA</XPD:REF>
 </XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[52]" type="UMLClass" guid="8ZaR5HMZRUCcEP3vJsPsOAAA">
+<XPD:ATTR name="Name" type="string">TelaPesquisaEvento</XPD:ATTR>
+<XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
+<XPD:ATTR name="StereotypeName" type="string">boundary</XPD:ATTR>
+<XPD:REF name="Namespace">rd/GUv/Ug0Km3I47jGqn9AAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">3mF8IEh210G5pQQ79BnwDwAA</XPD:REF>
+<XPD:REF name="Views[1]">AuWh/2uG2kSxzLSwgP7eEAAA</XPD:REF>
+<XPD:REF name="Views[2]">9v/3CX3HZUWloHQ98X8iEgAA</XPD:REF>
+<XPD:REF name="Views[3]">YGtHa9ckBEKW7JYO0HlEaAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedCollaborationInstanceSets" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[0]" type="UMLCollaborationInstanceSet" guid="K4o5exMnXEOHtKIu40OuzQAA">
