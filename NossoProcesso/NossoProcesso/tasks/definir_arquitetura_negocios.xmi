@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-QCRyaTp5QNbSLIQ6_4lwww"
+    name=",_bjSxINerEd6xu93l8GAfpQ" guid="-QCRyaTp5QNbSLIQ6_4lwww">
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Definir uma arquitetura para os negócios.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definir os padrões de negócios, os principais mecanismos e as convenções de modelagem para os negócios.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

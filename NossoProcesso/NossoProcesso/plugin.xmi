@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Xc_oUM4iEd66aokb7PNiyA"
+      guid="_Xc_oUM4iEd66aokb7PNiyA">
+    <subManagers xmi:id="_bs0T0dBIEd6a7P7nreokpA" href="uma://_bp14UNBIEd6a7P7nreokpA#_bs0T0dBIEd6a7P7nreokpA"/>
+    <resourceDescriptors xmi:id="_IDTcYM_hEd6UIctQeoKisQ" id="-Z9kCo28flHdEuAEKIAYRVw"
+        uri="workproducts/implementacao.xmi"/>
+    <resourceDescriptors xmi:id="_d_yrYM_tEd6tNbWyddkP8Q" id="-OFHFaNBqE-E2TtNyW6Ys-Q"
+        uri="roles/analista.xmi"/>
+    <resourceDescriptors xmi:id="_EvOesM_wEd6tNbWyddkP8Q" id="-GBhYmwbhBP1sKRoYo6gXRw"
+        uri="roles/arquiteto.xmi"/>
+    <resourceDescriptors xmi:id="_3JoWQM_wEd6tNbWyddkP8Q" id="-3GGKKYbbGYQ8iRZSBaf5cw"
+        uri="roles/gerente_projeto.xmi"/>
+    <resourceDescriptors xmi:id="_bsEs8NBIEd6a7P7nreokpA" id="_bp14UNBIEd6a7P7nreokpA"
+        uri="capabilitypatterns/SeuProcesso/model.xmi"/>
+    <resourceDescriptors xmi:id="_y94BsNeqEd6xu93l8GAfpQ" id="-Vqsg19L9UJW47J1ytQp2uQ"
+        uri="tasks/avaliar_organizacao.xmi"/>
+    <resourceDescriptors xmi:id="_DWWHINe6Ed6xu93l8GAfpQ" id="-QCRyaTp5QNbSLIQ6_4lwww"
+        uri="tasks/definir_arquitetura_negocios.xmi"/>
+    <resourceDescriptors xmi:id="_ddFUkNe8Ed6xu93l8GAfpQ" id="-XhZihq4clo1TRamlAjNszg"
+        uri="tasks/definir_ajustar_metas.xmi"/>
+    <resourceDescriptors xmi:id="_F_8fQNe9Ed6xu93l8GAfpQ" id="-iJJOAmGnl1Ulmr9wr_6oBw"
+        uri="tasks/analisar_problema.xmi"/>
+    <resourceDescriptors xmi:id="_7CdzINe-Ed6xu93l8GAfpQ" id="-K0dVOxX5eX0T_x8_CZ8qeg"
+        uri="tasks/desenvolver_visao.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_2aGIwMk3Ed6qI_sECKjNgg" name="NossoProcesso"
+      guid="_2aGIwMk3Ed6qI_sECKjNgg" presentationName="Processo Jairo e Janisson"
+      briefDescription="Processo de desenvolvimento de software" authors="Janisson Gois&#xD;&#xA;Jairo Charnoski"
+      changeDate="2009-11-12T20:27:51.499-0300">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIwck3Ed6qI_sECKjNgg"
+        name="Content" guid="_2aGIwck3Ed6qI_sECKjNgg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIwsk3Ed6qI_sECKjNgg"
+          name="Categories" guid="_2aGIwsk3Ed6qI_sECKjNgg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIw8k3Ed6qI_sECKjNgg"
+            name="Domains" guid="_2aGIw8k3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxMk3Ed6qI_sECKjNgg"
+            name="Disciplines" guid="_2aGIxMk3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxck3Ed6qI_sECKjNgg"
+            name="RoleSets" guid="_2aGIxck3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxsk3Ed6qI_sECKjNgg"
+            name="WP Types" guid="_2aGIxsk3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIx8k3Ed6qI_sECKjNgg"
+            name="Tools" guid="_2aGIx8k3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIyMk3Ed6qI_sECKjNgg"
+            name="StandardCategories" guid="_2aGIyMk3Ed6qI_sECKjNgg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIyck3Ed6qI_sECKjNgg"
+            name="CustomCategories" guid="_2aGIyck3Ed6qI_sECKjNgg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIysk3Ed6qI_sECKjNgg"
+              name="Hidden" guid="_2aGIysk3Ed6qI_sECKjNgg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_2aGIy8k3Ed6qI_sECKjNgg"
+                name="Custom Categories" guid="_2aGIy8k3Ed6qI_sECKjNgg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIzMk3Ed6qI_sECKjNgg"
+          name="CoreContent" guid="_2aGIzMk3Ed6qI_sECKjNgg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_apirkMk6Ed6qI_sECKjNgg"
+            name="papeis_artefatos" guid="_apirkMk6Ed6qI_sECKjNgg" presentationName="Papeis e Artefatos">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="__zvTgM4rEd66aokb7PNiyA"
+              name="analista" guid="__zvTgM4rEd66aokb7PNiyA" presentationName="Analista"
+              briefDescription="A pessoa neste papel representa os interesses do cliente e do usuário final recolhendo informações dos Stakeholders para entender o problema a ser resolvido, capturando os requisitos e definindo suas prioridades."
+              responsibleFor="_IFggAM_aEd6UIctQeoKisQ _lNphkM_fEd6UIctQeoKisQ">
+            <presentation xmi:id="-OFHFaNBqE-E2TtNyW6Ys-Q" href="uma://-OFHFaNBqE-E2TtNyW6Ys-Q#-OFHFaNBqE-E2TtNyW6Ys-Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JSSRkM4sEd66aokb7PNiyA"
+              name="designer" guid="_JSSRkM4sEd66aokb7PNiyA" presentationName="Designer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_fTthYM4sEd66aokb7PNiyA"
+              name="arquiteto" guid="_fTthYM4sEd66aokb7PNiyA" presentationName="Arquiteto"
+              briefDescription="Este papel é responsável por definir a arquitetura de software, incluindo a tomada das principais decisões técnicas que orientam todo o design e a implementação do projeto.">
+            <presentation xmi:id="-GBhYmwbhBP1sKRoYo6gXRw" href="uma://-GBhYmwbhBP1sKRoYo6gXRw#-GBhYmwbhBP1sKRoYo6gXRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Kyj8EM4tEd66aokb7PNiyA"
+              name="stakeholder" guid="_Kyj8EM4tEd66aokb7PNiyA" presentationName="Stakeholder"
+              briefDescription="Este papel representa grupos de interessados cujas necessidades devem ser satisfeitas pelo projeto. É um papel que pode ser executado por qualquer um que seja (ou potencialmente possa ser) materialmente afetado pelo resultado do projeto."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IFggAM_aEd6UIctQeoKisQ"
+              name="caso_uso" guid="_IFggAM_aEd6UIctQeoKisQ" presentationName="Caso de Uso"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gVb1cM_fEd6UIctQeoKisQ"
+              name="dicionario_dados" guid="_gVb1cM_fEd6UIctQeoKisQ" presentationName="Dicionário de dados"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lNphkM_fEd6UIctQeoKisQ"
+              name="glossario" guid="_lNphkM_fEd6UIctQeoKisQ" presentationName="Glossario"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_37ENgM_gEd6UIctQeoKisQ"
+              name="implementacao" guid="_37ENgM_gEd6UIctQeoKisQ" presentationName="Implementação"
+              briefDescription="Arquivos de código do software, arquivos de dados e arquivos de suporte tais como os arquivos de ajuda on-line que representam as partes básicas de um sistema que possa ser construído.">
+            <presentation xmi:id="-Z9kCo28flHdEuAEKIAYRVw" href="uma://-Z9kCo28flHdEuAEKIAYRVw#-Z9kCo28flHdEuAEKIAYRVw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_QTSVkM_hEd6UIctQeoKisQ"
+              name="script_teste" guid="_QTSVkM_hEd6UIctQeoKisQ" presentationName="Script de testes"
+              briefDescription="Este artefato contém instruções passo a passo para realizar um teste, permitindo sua execução. Pode ter a forma de instruções textualmente documentadas que são executadas manualmente ou instruções interpretáveis pelo computador que permitem a execução automatizada de testes."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Eles0M_wEd6tNbWyddkP8Q"
+              name="gerente_projeto" guid="_Eles0M_wEd6tNbWyddkP8Q" presentationName="Gerente de Projeto"
+              briefDescription="Conduz o planejamento do projeto, coordena as interações com os Stakeholders e mantêm a equipe de projeto focada em alcançar os objetivos do projeto.">
+            <presentation xmi:id="-3GGKKYbbGYQ8iRZSBaf5cw" href="uma://-3GGKKYbbGYQ8iRZSBaf5cw#-3GGKKYbbGYQ8iRZSBaf5cw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_H8D-wNeeEd6xu93l8GAfpQ"
+            name="modelagem_de_negocio" guid="_H8D-wNeeEd6xu93l8GAfpQ" presentationName="Modelagem de negócio"
+            briefDescription="Analisar o processo da empresa identificando seus gargalos.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p8sykNeeEd6xu93l8GAfpQ"
+              name="avaliar_organizacao" guid="_p8sykNeeEd6xu93l8GAfpQ" presentationName="Avaliar Organização-Alvo">
+            <presentation xmi:id="-Vqsg19L9UJW47J1ytQp2uQ" href="uma://-Vqsg19L9UJW47J1ytQp2uQ#-Vqsg19L9UJW47J1ytQp2uQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bjSxINerEd6xu93l8GAfpQ"
+              name="definir_arquitetura_negocios" guid="_bjSxINerEd6xu93l8GAfpQ" presentationName="Definir Arquitetura de Negócios">
+            <presentation xmi:id="-QCRyaTp5QNbSLIQ6_4lwww" href="uma://-QCRyaTp5QNbSLIQ6_4lwww#-QCRyaTp5QNbSLIQ6_4lwww"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_j04z4NerEd6xu93l8GAfpQ"
+              name="refinar_papeis_e_responsabilidades" guid="_j04z4NerEd6xu93l8GAfpQ"
+              presentationName="Refinar Papéis e Responsabilidades"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QnC2QNe8Ed6xu93l8GAfpQ"
+              name="definir_ajustar_metas" guid="_QnC2QNe8Ed6xu93l8GAfpQ" presentationName="Definir e Ajustar Metas">
+            <presentation xmi:id="-XhZihq4clo1TRamlAjNszg" href="uma://-XhZihq4clo1TRamlAjNszg#-XhZihq4clo1TRamlAjNszg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_z4s1wNerEd6xu93l8GAfpQ"
+            name="requisitos" guid="_z4s1wNerEd6xu93l8GAfpQ" presentationName="Requisitos">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6CllINerEd6xu93l8GAfpQ"
+              name="analisar_problema" guid="_6CllINerEd6xu93l8GAfpQ" presentationName="Analisar o Problema">
+            <presentation xmi:id="-iJJOAmGnl1Ulmr9wr_6oBw" href="uma://-iJJOAmGnl1Ulmr9wr_6oBw#-iJJOAmGnl1Ulmr9wr_6oBw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Fqjt0NesEd6xu93l8GAfpQ"
+              name="gerenciar_requisitos_mutaveis" guid="_Fqjt0NesEd6xu93l8GAfpQ"
+              presentationName="Gerenciar Requisitos Mutáveis"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MrSloNesEd6xu93l8GAfpQ"
+              name="desenvolver_visao" guid="_MrSloNesEd6xu93l8GAfpQ" presentationName="Desenvolver Visão">
+            <presentation xmi:id="-K0dVOxX5eX0T_x8_CZ8qeg" href="uma://-K0dVOxX5eX0T_x8_CZ8qeg#-K0dVOxX5eX0T_x8_CZ8qeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OoPf4Ne_Ed6xu93l8GAfpQ"
+              name="criar_prototipos" guid="_OoPf4Ne_Ed6xu93l8GAfpQ" presentationName="Criar Protótipos"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rXfSkNe_Ed6xu93l8GAfpQ"
+              name="desenvolver_cenarios" guid="_rXfSkNe_Ed6xu93l8GAfpQ" presentationName="Desenvolver Cenários"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2aGIzck3Ed6qI_sECKjNgg"
+          name="CapabilityPatterns" guid="_2aGIzck3Ed6qI_sECKjNgg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_bp14UNBIEd6a7P7nreokpA"
+            href="uma://_bp14UNBIEd6a7P7nreokpA#_bp14UNBIEd6a7P7nreokpA"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2aGIzsk3Ed6qI_sECKjNgg"
+        name="DeliveryProcesses" guid="_2aGIzsk3Ed6qI_sECKjNgg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2aGIz8k3Ed6qI_sECKjNgg"
+        name="ProcessContributions" guid="_2aGIz8k3Ed6qI_sECKjNgg"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <bases href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{35DCB3E1-2766-423E-A849-57ECD4F41A40}"/>
+    <bases href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0TLvwMlgEdmt3adZL5Dmdw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

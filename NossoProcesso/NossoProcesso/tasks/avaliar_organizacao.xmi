@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Vqsg19L9UJW47J1ytQp2uQ"
+    name="avaliar_organizacao,_p8sykNeeEd6xu93l8GAfpQ" guid="-Vqsg19L9UJW47J1ytQp2uQ"
+    changeDate="2009-11-22T17:33:45.545-0300">
+  <purpose>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Descrever o atual status da organização na qual o aplicativo será implantado, em termos de processos, ferramentas,&#xD;
+        competência e atitude das pessoas, clientes, concorrentes, tendências técnicas, problemas e áreas de melhoria&#xD;
+        atuais.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Motivar o processo de engenharia da organização-alvo.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identificar os envolvidos no esforço para modelagem de negócios.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>
