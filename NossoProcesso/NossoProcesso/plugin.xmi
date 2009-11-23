@@ -48,7 +48,11 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxsk3Ed6qI_sECKjNgg"
             name="WP Types" guid="_2aGIxsk3Ed6qI_sECKjNgg"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIx8k3Ed6qI_sECKjNgg"
-            name="Tools" guid="_2aGIx8k3Ed6qI_sECKjNgg"/>
+            name="Tools" guid="_2aGIx8k3Ed6qI_sECKjNgg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_7QewQNfaEd67EuN-s0cDCQ"
+              name="modelagem_processo" guid="_7QewQNfaEd67EuN-s0cDCQ" presentationName="TIBCO"
+              briefDescription="Ferramenta para modelagem do processo do negocio"/>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIyMk3Ed6qI_sECKjNgg"
             name="StandardCategories" guid="_2aGIyMk3Ed6qI_sECKjNgg"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIyck3Ed6qI_sECKjNgg"
