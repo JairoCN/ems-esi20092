@@ -140,40 +140,48 @@
             name="modelagem_de_negocio" guid="_H8D-wNeeEd6xu93l8GAfpQ" presentationName="Modelagem de negócio"
             briefDescription="Analisar o processo da empresa identificando seus gargalos.">
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p8sykNeeEd6xu93l8GAfpQ"
-              name="avaliar_organizacao" guid="_p8sykNeeEd6xu93l8GAfpQ" presentationName="Avaliar Organização-Alvo">
+              name="avaliar_organizacao" guid="_p8sykNeeEd6xu93l8GAfpQ" presentationName="Avaliar Organização-Alvo"
+              performedBy="__zvTgM4rEd66aokb7PNiyA">
             <presentation xmi:id="-Vqsg19L9UJW47J1ytQp2uQ" href="uma://-Vqsg19L9UJW47J1ytQp2uQ#-Vqsg19L9UJW47J1ytQp2uQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bjSxINerEd6xu93l8GAfpQ"
-              name="definir_arquitetura_negocios" guid="_bjSxINerEd6xu93l8GAfpQ" presentationName="Definir Arquitetura de Negócios">
+              name="definir_arquitetura_negocios" guid="_bjSxINerEd6xu93l8GAfpQ" presentationName="Definir Arquitetura de Negócios"
+              performedBy="_fTthYM4sEd66aokb7PNiyA" additionallyPerformedBy="__zvTgM4rEd66aokb7PNiyA">
             <presentation xmi:id="-QCRyaTp5QNbSLIQ6_4lwww" href="uma://-QCRyaTp5QNbSLIQ6_4lwww#-QCRyaTp5QNbSLIQ6_4lwww"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_j04z4NerEd6xu93l8GAfpQ"
               name="refinar_papeis_e_responsabilidades" guid="_j04z4NerEd6xu93l8GAfpQ"
-              presentationName="Refinar Papéis e Responsabilidades"/>
+              presentationName="Refinar Papéis e Responsabilidades" performedBy="__zvTgM4rEd66aokb7PNiyA"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QnC2QNe8Ed6xu93l8GAfpQ"
-              name="definir_ajustar_metas" guid="_QnC2QNe8Ed6xu93l8GAfpQ" presentationName="Definir e Ajustar Metas">
+              name="definir_ajustar_metas" guid="_QnC2QNe8Ed6xu93l8GAfpQ" presentationName="Definir e Ajustar Metas"
+              performedBy="__zvTgM4rEd66aokb7PNiyA">
             <presentation xmi:id="-XhZihq4clo1TRamlAjNszg" href="uma://-XhZihq4clo1TRamlAjNszg#-XhZihq4clo1TRamlAjNszg"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_z4s1wNerEd6xu93l8GAfpQ"
             name="requisitos" guid="_z4s1wNerEd6xu93l8GAfpQ" presentationName="Requisitos">
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6CllINerEd6xu93l8GAfpQ"
-              name="analisar_problema" guid="_6CllINerEd6xu93l8GAfpQ" presentationName="Analisar o Problema">
+              name="analisar_problema" guid="_6CllINerEd6xu93l8GAfpQ" presentationName="Analisar o Problema"
+              performedBy="__zvTgM4rEd66aokb7PNiyA">
             <presentation xmi:id="-iJJOAmGnl1Ulmr9wr_6oBw" href="uma://-iJJOAmGnl1Ulmr9wr_6oBw#-iJJOAmGnl1Ulmr9wr_6oBw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Fqjt0NesEd6xu93l8GAfpQ"
               name="gerenciar_requisitos_mutaveis" guid="_Fqjt0NesEd6xu93l8GAfpQ"
-              presentationName="Gerenciar Requisitos Mutáveis"/>
+              presentationName="Gerenciar Requisitos Mutáveis" performedBy="__zvTgM4rEd66aokb7PNiyA"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MrSloNesEd6xu93l8GAfpQ"
-              name="desenvolver_visao" guid="_MrSloNesEd6xu93l8GAfpQ" presentationName="Desenvolver Visão">
+              name="desenvolver_visao" guid="_MrSloNesEd6xu93l8GAfpQ" presentationName="Desenvolver Visão"
+              performedBy="__zvTgM4rEd66aokb7PNiyA" additionallyPerformedBy="_Kyj8EM4tEd66aokb7PNiyA">
             <presentation xmi:id="-K0dVOxX5eX0T_x8_CZ8qeg" href="uma://-K0dVOxX5eX0T_x8_CZ8qeg#-K0dVOxX5eX0T_x8_CZ8qeg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OoPf4Ne_Ed6xu93l8GAfpQ"
-              name="criar_prototipos" guid="_OoPf4Ne_Ed6xu93l8GAfpQ" presentationName="Criar Protótipos"/>
+              name="criar_prototipos" guid="_OoPf4Ne_Ed6xu93l8GAfpQ" presentationName="Criar Protótipos"
+              performedBy="_JSSRkM4sEd66aokb7PNiyA __zvTgM4rEd66aokb7PNiyA"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rXfSkNe_Ed6xu93l8GAfpQ"
-              name="desenvolver_cenarios" guid="_rXfSkNe_Ed6xu93l8GAfpQ" presentationName="Desenvolver Cenários"/>
+              name="desenvolver_cenarios" guid="_rXfSkNe_Ed6xu93l8GAfpQ" presentationName="Desenvolver Cenários"
+              performedBy="__zvTgM4rEd66aokb7PNiyA"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KPbnYNfREd6La5QvbTsHWw"
-              name="criar_ucs" guid="_KPbnYNfREd6La5QvbTsHWw" presentationName="Criar Casos de Uso"/>
+              name="criar_ucs" guid="_KPbnYNfREd6La5QvbTsHWw" presentationName="Criar Casos de Uso"
+              performedBy="__zvTgM4rEd66aokb7PNiyA"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2aGIzck3Ed6qI_sECKjNgg"
