@@ -36,7 +36,13 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIw8k3Ed6qI_sECKjNgg"
             name="Domains" guid="_2aGIw8k3Ed6qI_sECKjNgg"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxMk3Ed6qI_sECKjNgg"
-            name="Disciplines" guid="_2aGIxMk3Ed6qI_sECKjNgg"/>
+            name="Disciplines" guid="_2aGIxMk3Ed6qI_sECKjNgg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_073CcNfYEd6BU-CaJOAKQw"
+              name="modelagem_negocio" guid="_073CcNfYEd6BU-CaJOAKQw" presentationName="Modelagem de Negocio"
+              tasks="_p8sykNeeEd6xu93l8GAfpQ _QnC2QNe8Ed6xu93l8GAfpQ _bjSxINerEd6xu93l8GAfpQ _j04z4NerEd6xu93l8GAfpQ">
+            <referenceWorkflows href="uma://_bp14UNBIEd6a7P7nreokpA#_w1pNQdfTEd6BU-CaJOAKQw"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxck3Ed6qI_sECKjNgg"
             name="RoleSets" guid="_2aGIxck3Ed6qI_sECKjNgg"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxsk3Ed6qI_sECKjNgg"
@@ -50,8 +56,14 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIysk3Ed6qI_sECKjNgg"
               name="Hidden" guid="_2aGIysk3Ed6qI_sECKjNgg">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_2aGIy8k3Ed6qI_sECKjNgg"
-                name="Custom Categories" guid="_2aGIy8k3Ed6qI_sECKjNgg"/>
+                name="Custom Categories" guid="_2aGIy8k3Ed6qI_sECKjNgg" categorizedElements="_JtWw4NfYEd6BU-CaJOAKQw"/>
           </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_JtWw4NfYEd6BU-CaJOAKQw"
+              name="visao" guid="_JtWw4NfYEd6BU-CaJOAKQw" presentationName="Visão">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CapabilityPattern"
+                href="uma://_bp14UNBIEd6a7P7nreokpA#_bp14UdBIEd6a7P7nreokpA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Discipline" href="#_073CcNfYEd6BU-CaJOAKQw"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIzMk3Ed6qI_sECKjNgg"
