@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <uml:Activity xmi:id="_W3LVkNLwEd6SqsXpv3pvFQ" name="Elaboracao">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W3LVkdLwEd6SqsXpv3pvFQ" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVktLwEd6SqsXpv3pvFQ"
+          key="uri" value="uma://_bp14UNBIEd6a7P7nreokpA#_gZooQdBIEd6a7P7nreokpA"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVk9LwEd6SqsXpv3pvFQ"
+          key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_W3LVlNLwEd6SqsXpv3pvFQ" name="Daily Scrum">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W3LVldLwEd6SqsXpv3pvFQ"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVltLwEd6SqsXpv3pvFQ"
+            key="uri" value="uma://_bp14UNBIEd6a7P7nreokpA#_jLazYNBIEd6a7P7nreokpA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVl9LwEd6SqsXpv3pvFQ"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_W3LVmNLwEd6SqsXpv3pvFQ" name="New Task">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W3LVmdLwEd6SqsXpv3pvFQ"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVmtLwEd6SqsXpv3pvFQ"
+            key="uri" value="uma://_bp14UNBIEd6a7P7nreokpA#_k3bpQNBIEd6a7P7nreokpA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3LVm9LwEd6SqsXpv3pvFQ"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_W3KugNLwEd6SqsXpv3pvFQ" type="AD" element="_W3LVkNLwEd6SqsXpv3pvFQ"
+      name="Elaboracao" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_W3KugdLwEd6SqsXpv3pvFQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_W3KugtLwEd6SqsXpv3pvFQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_W3Kug9LwEd6SqsXpv3pvFQ"/>
+  </notation:Diagram>
+</xmi:XMI>
