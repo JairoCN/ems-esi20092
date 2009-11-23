@@ -117,11 +117,14 @@
               name="stakeholder" guid="_Kyj8EM4tEd66aokb7PNiyA" presentationName="Stakeholder"
               briefDescription="Este papel representa grupos de interessados cujas necessidades devem ser satisfeitas pelo projeto. É um papel que pode ser executado por qualquer um que seja (ou potencialmente possa ser) materialmente afetado pelo resultado do projeto."/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IFggAM_aEd6UIctQeoKisQ"
-              name="caso_uso" guid="_IFggAM_aEd6UIctQeoKisQ" presentationName="Caso de Uso"/>
+              name="caso_uso" guid="_IFggAM_aEd6UIctQeoKisQ" presentationName="Caso de Uso"
+              briefDescription="São as descrições das funcionalidades a serem implementadas no software."/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gVb1cM_fEd6UIctQeoKisQ"
-              name="dicionario_dados" guid="_gVb1cM_fEd6UIctQeoKisQ" presentationName="Dicionário de dados"/>
+              name="dicionario_dados" guid="_gVb1cM_fEd6UIctQeoKisQ" presentationName="Dicionário de dados"
+              briefDescription="São os conjuntos de dados identificados durante o processo de requisitos"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lNphkM_fEd6UIctQeoKisQ"
-              name="glossario" guid="_lNphkM_fEd6UIctQeoKisQ" presentationName="Glossario"/>
+              name="glossario" guid="_lNphkM_fEd6UIctQeoKisQ" presentationName="Glossario"
+              briefDescription="É uma forma de identificar caracteristicas, siglas e outras coisas particulares de cada negocio"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Eles0M_wEd6tNbWyddkP8Q"
               name="gerente_projeto" guid="_Eles0M_wEd6tNbWyddkP8Q" presentationName="Gerente de Projeto"
               briefDescription="Conduz o planejamento do projeto, coordena as interações com os Stakeholders e mantêm a equipe de projeto focada em alcançar os objetivos do projeto.">
@@ -130,15 +133,20 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kTl-wNfPEd6La5QvbTsHWw"
               name="documento_visao" guid="_kTl-wNfPEd6La5QvbTsHWw" presentationName="Documento de Visão do Negócio"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_r_CAcNfPEd6La5QvbTsHWw"
-              name="prototipo" guid="_r_CAcNfPEd6La5QvbTsHWw" presentationName="Prototipo"/>
+              name="prototipo" guid="_r_CAcNfPEd6La5QvbTsHWw" presentationName="Prototipo"
+              briefDescription="São exemplos de telas para a validação com o cliente"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a8nYNfQEd6La5QvbTsHWw"
-              name="cenario" guid="_0a8nYNfQEd6La5QvbTsHWw" presentationName="Cenário"/>
+              name="cenario" guid="_0a8nYNfQEd6La5QvbTsHWw" presentationName="Cenário"
+              briefDescription="São as possíveis situaçoes de um caso de uso"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_6r-ZMNfTEd699eIZFi0k8g"
-              name="modelo_negocio" guid="_6r-ZMNfTEd699eIZFi0k8g" presentationName="BPM"/>
+              name="modelo_negocio" guid="_6r-ZMNfTEd699eIZFi0k8g" presentationName="BPM"
+              briefDescription="É um documento contendo todo o processo do negocio do cliente"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Q948ENfUEd699eIZFi0k8g"
-              name="requisito_usuario" guid="_Q948ENfUEd699eIZFi0k8g" presentationName="Requisito de Usuário"/>
+              name="requisito_usuario" guid="_Q948ENfUEd699eIZFi0k8g" presentationName="Requisito de Usuário"
+              briefDescription="São os requisitos com uma linguagem a nível de usuario"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WFMNENfUEd699eIZFi0k8g"
-              name="requisito_sistema" guid="_WFMNENfUEd699eIZFi0k8g" presentationName="Requisito de Sistema"/>
+              name="requisito_sistema" guid="_WFMNENfUEd699eIZFi0k8g" presentationName="Requisito de Sistema"
+              briefDescription="São os requisitos com uma linguagem a nível de programador"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_H8D-wNeeEd6xu93l8GAfpQ"
             name="modelagem_de_negocio" guid="_H8D-wNeeEd6xu93l8GAfpQ" presentationName="Modelagem de negócio"
