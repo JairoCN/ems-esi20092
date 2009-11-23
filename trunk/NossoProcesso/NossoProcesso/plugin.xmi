@@ -80,6 +80,7 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_FvRRENfgEd6qfIOixZvTsg"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_wJlFkNfgEd6qfIOixZvTsg"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_5Y574NfgEd6qfIOixZvTsg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_hYEjoNfhEd6DMLswOKFBkw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_FvRRENfgEd6qfIOixZvTsg"
               name="visao_artefatos" guid="_FvRRENfgEd6qfIOixZvTsg" presentationName="Artefatos"
@@ -90,6 +91,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_5Y574NfgEd6qfIOixZvTsg"
               name="visao_disciplinas" guid="_5Y574NfgEd6qfIOixZvTsg" presentationName="Disciplinas"
               categorizedElements="_o_UTwNffEd6qfIOixZvTsg _aZDN8NffEd6qfIOixZvTsg"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_hYEjoNfhEd6DMLswOKFBkw"
+              name="visao_ferramentas" guid="_hYEjoNfhEd6DMLswOKFBkw" presentationName="Ferramentas"
+              categorizedElements="_oVj3ANfdEd6qfIOixZvTsg _7QewQNfaEd67EuN-s0cDCQ"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIzMk3Ed6qI_sECKjNgg"
