@@ -6,8 +6,6 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Xc_oUM4iEd66aokb7PNiyA"
       guid="_Xc_oUM4iEd66aokb7PNiyA">
     <subManagers xmi:id="_bs0T0dBIEd6a7P7nreokpA" href="uma://_bp14UNBIEd6a7P7nreokpA#_bs0T0dBIEd6a7P7nreokpA"/>
-    <resourceDescriptors xmi:id="_IDTcYM_hEd6UIctQeoKisQ" id="-Z9kCo28flHdEuAEKIAYRVw"
-        uri="workproducts/implementacao.xmi"/>
     <resourceDescriptors xmi:id="_d_yrYM_tEd6tNbWyddkP8Q" id="-OFHFaNBqE-E2TtNyW6Ys-Q"
         uri="roles/analista.xmi"/>
     <resourceDescriptors xmi:id="_EvOesM_wEd6tNbWyddkP8Q" id="-GBhYmwbhBP1sKRoYo6gXRw"
@@ -82,19 +80,17 @@
               name="dicionario_dados" guid="_gVb1cM_fEd6UIctQeoKisQ" presentationName="Dicionário de dados"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lNphkM_fEd6UIctQeoKisQ"
               name="glossario" guid="_lNphkM_fEd6UIctQeoKisQ" presentationName="Glossario"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_37ENgM_gEd6UIctQeoKisQ"
-              name="implementacao" guid="_37ENgM_gEd6UIctQeoKisQ" presentationName="Implementação"
-              briefDescription="Arquivos de código do software, arquivos de dados e arquivos de suporte tais como os arquivos de ajuda on-line que representam as partes básicas de um sistema que possa ser construído.">
-            <presentation xmi:id="-Z9kCo28flHdEuAEKIAYRVw" href="uma://-Z9kCo28flHdEuAEKIAYRVw#-Z9kCo28flHdEuAEKIAYRVw"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_QTSVkM_hEd6UIctQeoKisQ"
-              name="script_teste" guid="_QTSVkM_hEd6UIctQeoKisQ" presentationName="Script de testes"
-              briefDescription="Este artefato contém instruções passo a passo para realizar um teste, permitindo sua execução. Pode ter a forma de instruções textualmente documentadas que são executadas manualmente ou instruções interpretáveis pelo computador que permitem a execução automatizada de testes."/>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Eles0M_wEd6tNbWyddkP8Q"
               name="gerente_projeto" guid="_Eles0M_wEd6tNbWyddkP8Q" presentationName="Gerente de Projeto"
               briefDescription="Conduz o planejamento do projeto, coordena as interações com os Stakeholders e mantêm a equipe de projeto focada em alcançar os objetivos do projeto.">
             <presentation xmi:id="-3GGKKYbbGYQ8iRZSBaf5cw" href="uma://-3GGKKYbbGYQ8iRZSBaf5cw#-3GGKKYbbGYQ8iRZSBaf5cw"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kTl-wNfPEd6La5QvbTsHWw"
+              name="documento_visao" guid="_kTl-wNfPEd6La5QvbTsHWw" presentationName="Documento de Visão do Negócio"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_r_CAcNfPEd6La5QvbTsHWw"
+              name="prototipos" guid="_r_CAcNfPEd6La5QvbTsHWw" presentationName="Prototipos"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a8nYNfQEd6La5QvbTsHWw"
+              name="cenario" guid="_0a8nYNfQEd6La5QvbTsHWw" presentationName="Cenário"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_H8D-wNeeEd6xu93l8GAfpQ"
             name="modelagem_de_negocio" guid="_H8D-wNeeEd6xu93l8GAfpQ" presentationName="Modelagem de negócio"
@@ -132,6 +128,8 @@
               name="criar_prototipos" guid="_OoPf4Ne_Ed6xu93l8GAfpQ" presentationName="Criar Protótipos"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rXfSkNe_Ed6xu93l8GAfpQ"
               name="desenvolver_cenarios" guid="_rXfSkNe_Ed6xu93l8GAfpQ" presentationName="Desenvolver Cenários"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KPbnYNfREd6La5QvbTsHWw"
+              name="criar_ucs" guid="_KPbnYNfREd6La5QvbTsHWw" presentationName="Criar Casos de Uso"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2aGIzck3Ed6qI_sECKjNgg"
