@@ -16,7 +16,7 @@
           name="Modelagem de Negocio" guid="_w1pNQNfTEd6BU-CaJOAKQw">
         <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_w1pNQdfTEd6BU-CaJOAKQw"
             name="Modelagem de Negocio" guid="_w1pNQdfTEd6BU-CaJOAKQw" presentationName="Modelagem de Negocio"
-            superActivities="_ebBmgdBIEd6a7P7nreokpA" isRepeatable="true" breakdownElements="_1P05kNfTEd6BU-CaJOAKQw _1P05kdfTEd6BU-CaJOAKQw _1P05ktfTEd6BU-CaJOAKQw _1P05k9fTEd6BU-CaJOAKQw"/>
+            superActivities="_ebBmgdBIEd6a7P7nreokpA" isRepeatable="true" breakdownElements="_1P05kNfTEd6BU-CaJOAKQw _1P05kdfTEd6BU-CaJOAKQw _1P05ktfTEd6BU-CaJOAKQw _1P05k9fTEd6BU-CaJOAKQw _AoDQ4NfmEd6S6esAiJ2J6g _AoD38NfmEd6S6esAiJ2J6g _AoFtINfmEd6S6esAiJ2J6g _AoFtIdfmEd6S6esAiJ2J6g"/>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1P05kNfTEd6BU-CaJOAKQw"
             name="avaliar_organizacao" guid="_1P05kNfTEd6BU-CaJOAKQw" presentationName="Avaliar Organização-Alvo"
             superActivities="_w1pNQdfTEd6BU-CaJOAKQw">
@@ -44,13 +44,33 @@
             guid="_CngsYNfUEd6BU-CaJOAKQw" pred="_1P05kdfTEd6BU-CaJOAKQw"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DgvacNfUEd6BU-CaJOAKQw"
             guid="_DgvacNfUEd6BU-CaJOAKQw" pred="_1P05kNfTEd6BU-CaJOAKQw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_AoDQ4NfmEd6S6esAiJ2J6g"
+            name="analista" guid="_AoDQ4NfmEd6S6esAiJ2J6g" presentationName="Analista"
+            isPlanned="false" superActivities="_w1pNQdfTEd6BU-CaJOAKQw" responsibleFor="_AoFtIdfmEd6S6esAiJ2J6g _AoFtINfmEd6S6esAiJ2J6g">
+          <Role href="uma://_2aGIwMk3Ed6qI_sECKjNgg#__zvTgM4rEd66aokb7PNiyA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_AoD38NfmEd6S6esAiJ2J6g"
+            name="stakeholder" guid="_AoD38NfmEd6S6esAiJ2J6g" presentationName="Stakeholder"
+            isPlanned="false" superActivities="_w1pNQdfTEd6BU-CaJOAKQw">
+          <Role href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_Kyj8EM4tEd66aokb7PNiyA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AoFtINfmEd6S6esAiJ2J6g"
+            name="caso_uso" guid="_AoFtINfmEd6S6esAiJ2J6g" presentationName="Caso de Uso"
+            isPlanned="false" superActivities="_w1pNQdfTEd6BU-CaJOAKQw">
+          <WorkProduct href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_IFggAM_aEd6UIctQeoKisQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AoFtIdfmEd6S6esAiJ2J6g"
+            name="glossario" guid="_AoFtIdfmEd6S6esAiJ2J6g" presentationName="Glossario"
+            isPlanned="false" superActivities="_w1pNQdfTEd6BU-CaJOAKQw">
+          <WorkProduct href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_lNphkM_fEd6UIctQeoKisQ"/>
+        </processElements>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_WHvKwNfUEd6BU-CaJOAKQw"
           name="Requisitos" guid="_WHvKwNfUEd6BU-CaJOAKQw">
         <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_WHvKwdfUEd6BU-CaJOAKQw"
             name="Requisitos" guid="_WHvKwdfUEd6BU-CaJOAKQw" presentationName="Requisitos"
             superActivities="_ebBmgdBIEd6a7P7nreokpA" isRepeatable="true" linkToPredecessor="_b_0_gNfUEd6BU-CaJOAKQw"
-            breakdownElements="_Za49kNfUEd6BU-CaJOAKQw _Za49kdfUEd6BU-CaJOAKQw _Za49ktfUEd6BU-CaJOAKQw _Za49k9fUEd6BU-CaJOAKQw _Za49lNfUEd6BU-CaJOAKQw"/>
+            breakdownElements="_Za49kNfUEd6BU-CaJOAKQw _Za49kdfUEd6BU-CaJOAKQw _Za49ktfUEd6BU-CaJOAKQw _Za49k9fUEd6BU-CaJOAKQw _Za49lNfUEd6BU-CaJOAKQw _HAVooNfmEd6S6esAiJ2J6g _HAVoodfmEd6S6esAiJ2J6g _HAVootfmEd6S6esAiJ2J6g _HAXd0NfmEd6S6esAiJ2J6g _HAXd0dfmEd6S6esAiJ2J6g"/>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Za49kNfUEd6BU-CaJOAKQw"
             name="analisar_problema" guid="_Za49kNfUEd6BU-CaJOAKQw" presentationName="Analisar o Problema"
             superActivities="_WHvKwdfUEd6BU-CaJOAKQw">
@@ -90,6 +110,31 @@
             guid="_IBB5UNfVEd6BU-CaJOAKQw" pred="_Za49ktfUEd6BU-CaJOAKQw"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_IBE8oNfVEd6BU-CaJOAKQw"
             guid="_IBE8oNfVEd6BU-CaJOAKQw" pred="_Za49kdfUEd6BU-CaJOAKQw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_HAVooNfmEd6S6esAiJ2J6g"
+            name="analista" guid="_HAVooNfmEd6S6esAiJ2J6g" presentationName="Analista"
+            isPlanned="false" superActivities="_WHvKwdfUEd6BU-CaJOAKQw" responsibleFor="_HAXd0dfmEd6S6esAiJ2J6g _HAXd0NfmEd6S6esAiJ2J6g">
+          <Role href="uma://_2aGIwMk3Ed6qI_sECKjNgg#__zvTgM4rEd66aokb7PNiyA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_HAVoodfmEd6S6esAiJ2J6g"
+            name="designer" guid="_HAVoodfmEd6S6esAiJ2J6g" presentationName="Designer"
+            isPlanned="false" superActivities="_WHvKwdfUEd6BU-CaJOAKQw">
+          <Role href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_JSSRkM4sEd66aokb7PNiyA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_HAVootfmEd6S6esAiJ2J6g"
+            name="stakeholder" guid="_HAVootfmEd6S6esAiJ2J6g" presentationName="Stakeholder"
+            isPlanned="false" superActivities="_WHvKwdfUEd6BU-CaJOAKQw">
+          <Role href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_Kyj8EM4tEd66aokb7PNiyA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_HAXd0NfmEd6S6esAiJ2J6g"
+            name="caso_uso" guid="_HAXd0NfmEd6S6esAiJ2J6g" presentationName="Caso de Uso"
+            isPlanned="false" superActivities="_WHvKwdfUEd6BU-CaJOAKQw">
+          <WorkProduct href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_IFggAM_aEd6UIctQeoKisQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_HAXd0dfmEd6S6esAiJ2J6g"
+            name="glossario" guid="_HAXd0dfmEd6S6esAiJ2J6g" presentationName="Glossario"
+            isPlanned="false" superActivities="_WHvKwdfUEd6BU-CaJOAKQw">
+          <WorkProduct href="uma://_2aGIwMk3Ed6qI_sECKjNgg#_lNphkM_fEd6UIctQeoKisQ"/>
+        </processElements>
       </childPackages>
       <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_ebBmgdBIEd6a7P7nreokpA"
           name="Iniciacao" guid="_ebBmgdBIEd6a7P7nreokpA" presentationName="Iniciacao"
