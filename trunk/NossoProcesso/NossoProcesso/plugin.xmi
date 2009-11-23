@@ -37,8 +37,16 @@
             name="Domains" guid="_2aGIw8k3Ed6qI_sECKjNgg"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIxMk3Ed6qI_sECKjNgg"
             name="Disciplines" guid="_2aGIxMk3Ed6qI_sECKjNgg">
-          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_073CcNfYEd6BU-CaJOAKQw"
-              name="modelagem_negocio" guid="_073CcNfYEd6BU-CaJOAKQw" presentationName="Modelagem de Negocio"
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_YpvMcNffEd6qfIOixZvTsg"
+              name="Disciplinas" guid="_YpvMcNffEd6qfIOixZvTsg" presentationName="Disciplinas"
+              disciplines="_aZDN8NffEd6qfIOixZvTsg _o_UTwNffEd6qfIOixZvTsg"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_aZDN8NffEd6qfIOixZvTsg"
+              name="requisitos" guid="_aZDN8NffEd6qfIOixZvTsg" presentationName="Requisitos"
+              tasks="_6CllINerEd6xu93l8GAfpQ _OoPf4Ne_Ed6xu93l8GAfpQ _KPbnYNfREd6La5QvbTsHWw _rXfSkNe_Ed6xu93l8GAfpQ _MrSloNesEd6xu93l8GAfpQ _Fqjt0NesEd6xu93l8GAfpQ">
+            <referenceWorkflows href="uma://_bp14UNBIEd6a7P7nreokpA#_WHvKwdfUEd6BU-CaJOAKQw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_o_UTwNffEd6qfIOixZvTsg"
+              name="modelagem_negocio" guid="_o_UTwNffEd6qfIOixZvTsg" presentationName="Modelagem de Negocio"
               tasks="_p8sykNeeEd6xu93l8GAfpQ _QnC2QNe8Ed6xu93l8GAfpQ _bjSxINerEd6xu93l8GAfpQ _j04z4NerEd6xu93l8GAfpQ">
             <referenceWorkflows href="uma://_bp14UNBIEd6a7P7nreokpA#_w1pNQdfTEd6BU-CaJOAKQw"/>
           </contentElements>
@@ -52,6 +60,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_7QewQNfaEd67EuN-s0cDCQ"
               name="modelagem_processo" guid="_7QewQNfaEd67EuN-s0cDCQ" presentationName="TIBCO"
               briefDescription="Ferramenta para modelagem do processo do negocio"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_oVj3ANfdEd6qfIOixZvTsg"
+              name="ferramenta_case" guid="_oVj3ANfdEd6qfIOixZvTsg" presentationName="StarUML"
+              briefDescription="Ferramenta para modelagem UML"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIyMk3Ed6qI_sECKjNgg"
             name="StandardCategories" guid="_2aGIyMk3Ed6qI_sECKjNgg"/>
@@ -66,8 +77,19 @@
               name="visao" guid="_JtWw4NfYEd6BU-CaJOAKQw" presentationName="Visão">
             <categorizedElements xsi:type="org.eclipse.epf.uma:CapabilityPattern"
                 href="uma://_bp14UNBIEd6a7P7nreokpA#_bp14UdBIEd6a7P7nreokpA"/>
-            <categorizedElements xsi:type="org.eclipse.epf.uma:Discipline" href="#_073CcNfYEd6BU-CaJOAKQw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_FvRRENfgEd6qfIOixZvTsg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_wJlFkNfgEd6qfIOixZvTsg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_5Y574NfgEd6qfIOixZvTsg"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_FvRRENfgEd6qfIOixZvTsg"
+              name="visao_artefatos" guid="_FvRRENfgEd6qfIOixZvTsg" presentationName="Artefatos"
+              categorizedElements="_IFggAM_aEd6UIctQeoKisQ _0a8nYNfQEd6La5QvbTsHWw _gVb1cM_fEd6UIctQeoKisQ _kTl-wNfPEd6La5QvbTsHWw _lNphkM_fEd6UIctQeoKisQ _r_CAcNfPEd6La5QvbTsHWw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_wJlFkNfgEd6qfIOixZvTsg"
+              name="visao_papeis" guid="_wJlFkNfgEd6qfIOixZvTsg" presentationName="Papeis"
+              categorizedElements="__zvTgM4rEd66aokb7PNiyA _fTthYM4sEd66aokb7PNiyA _JSSRkM4sEd66aokb7PNiyA _Eles0M_wEd6tNbWyddkP8Q _Kyj8EM4tEd66aokb7PNiyA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_5Y574NfgEd6qfIOixZvTsg"
+              name="visao_disciplinas" guid="_5Y574NfgEd6qfIOixZvTsg" presentationName="Disciplinas"
+              categorizedElements="_o_UTwNffEd6qfIOixZvTsg _aZDN8NffEd6qfIOixZvTsg"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2aGIzMk3Ed6qI_sECKjNgg"
