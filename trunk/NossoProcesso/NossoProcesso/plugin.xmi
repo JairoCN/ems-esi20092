@@ -104,9 +104,15 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kTl-wNfPEd6La5QvbTsHWw"
               name="documento_visao" guid="_kTl-wNfPEd6La5QvbTsHWw" presentationName="Documento de Visão do Negócio"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_r_CAcNfPEd6La5QvbTsHWw"
-              name="prototipos" guid="_r_CAcNfPEd6La5QvbTsHWw" presentationName="Prototipos"/>
+              name="prototipo" guid="_r_CAcNfPEd6La5QvbTsHWw" presentationName="Prototipo"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a8nYNfQEd6La5QvbTsHWw"
               name="cenario" guid="_0a8nYNfQEd6La5QvbTsHWw" presentationName="Cenário"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_6r-ZMNfTEd699eIZFi0k8g"
+              name="modelo_negocio" guid="_6r-ZMNfTEd699eIZFi0k8g" presentationName="BPM"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Q948ENfUEd699eIZFi0k8g"
+              name="requisito_usuario" guid="_Q948ENfUEd699eIZFi0k8g" presentationName="Requisito de Usuário"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WFMNENfUEd699eIZFi0k8g"
+              name="requisito_sistema" guid="_WFMNENfUEd699eIZFi0k8g" presentationName="Requisito de Sistema"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_H8D-wNeeEd6xu93l8GAfpQ"
             name="modelagem_de_negocio" guid="_H8D-wNeeEd6xu93l8GAfpQ" presentationName="Modelagem de negócio"
