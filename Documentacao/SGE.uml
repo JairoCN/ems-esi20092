@@ -12776,10 +12776,10 @@
 <XPD:REF name="SupplierDependencies[3]">bkzZbeNuU0ag801GaGPHpAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="0da44xGMg0ST2O0n5Q2H7QAA">
-<XPD:ATTR name="Name" type="string">bloquearEvento</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">alterarSituacao</XPD:ATTR>
 <XPD:REF name="Owner">P1AUN7q7WUyHQl3DwqEtEAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="lgVuKLFE5Uu3iO3V5BodcQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="MGYchLmV90a2gq0SrRaY6wAA">
 <XPD:ATTR name="Name" type="string">evento Evento</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">0da44xGMg0ST2O0n5Q2H7QAA</XPD:REF>
 </XPD:OBJ>
@@ -15150,7 +15150,7 @@
 <XPD:REF name="Views[1]">Zl+G4/AFCkWXaiNwmZJTHAAA</XPD:REF>
 <XPD:REF name="Views[2]">pS0x3BFjN0KLyZwY2tItNAAA</XPD:REF>
 <XPD:REF name="Views[3]">lckMpp3bpEuNvk6Bi2izQAAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="b0PbCRRyw0+PjYerp/n0uwAA">
 <XPD:ATTR name="Name" type="string">controlarEventos</XPD:ATTR>
 <XPD:REF name="Owner">SwTB3JP0QUmAhvJSM+G0zAAA</XPD:REF>
@@ -15162,16 +15162,7 @@
 <XPD:ATTR name="#CallActions" type="integer">1</XPD:ATTR>
 <XPD:REF name="CallActions[0]">t2U8+4UhO0qX1WjugNgUAQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="umKF6ENCCEyY8ltJ/t4DaAAA">
-<XPD:ATTR name="Name" type="string">bloquearEvento</XPD:ATTR>
-<XPD:REF name="Owner">SwTB3JP0QUmAhvJSM+G0zAAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="B4ciq5uhI0ylqGzEqOUvXQAA">
-<XPD:ATTR name="Name" type="string">evento Evento</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">umKF6ENCCEyY8ltJ/t4DaAAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="8XvOyem2x0Kqmj42DWh+nwAA">
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="8XvOyem2x0Kqmj42DWh+nwAA">
 <XPD:ATTR name="Name" type="string">alterarSituacao</XPD:ATTR>
 <XPD:REF name="Owner">SwTB3JP0QUmAhvJSM+G0zAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
